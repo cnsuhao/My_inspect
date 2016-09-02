@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inspect", "inspect.vcxproj", "{4EE67C57-BE79-4CD7-B3B0-94AECE62DB41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadDrive", "..\LoadDrive\LoadDrive.vcxproj", "{84DA8236-2EBD-4B83-BF15-6C645C49DF24}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyFlowMon", "..\MyFlowMon\MyFlowMon.vcxproj", "{4118A41C-49FF-4962-B3C0-D9261362E685}"
+	ProjectSection(ProjectDependencies) = postProject
+		{84DA8236-2EBD-4B83-BF15-6C645C49DF24} = {84DA8236-2EBD-4B83-BF15-6C645C49DF24}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		WinDDK|Win32 = WinDDK|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EE67C57-BE79-4CD7-B3B0-94AECE62DB41}.Debug|Win32.ActiveCfg = WinDDK|Win32
+		{4EE67C57-BE79-4CD7-B3B0-94AECE62DB41}.Debug|Win32.Build.0 = WinDDK|Win32
+		{4EE67C57-BE79-4CD7-B3B0-94AECE62DB41}.Release|Win32.ActiveCfg = WinDDK|Win32
+		{4EE67C57-BE79-4CD7-B3B0-94AECE62DB41}.Release|Win32.Build.0 = WinDDK|Win32
+		{4EE67C57-BE79-4CD7-B3B0-94AECE62DB41}.WinDDK|Win32.ActiveCfg = WinDDK|Win32
+		{4EE67C57-BE79-4CD7-B3B0-94AECE62DB41}.WinDDK|Win32.Build.0 = WinDDK|Win32
+		{84DA8236-2EBD-4B83-BF15-6C645C49DF24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84DA8236-2EBD-4B83-BF15-6C645C49DF24}.Debug|Win32.Build.0 = Debug|Win32
+		{84DA8236-2EBD-4B83-BF15-6C645C49DF24}.Release|Win32.ActiveCfg = Release|Win32
+		{84DA8236-2EBD-4B83-BF15-6C645C49DF24}.Release|Win32.Build.0 = Release|Win32
+		{84DA8236-2EBD-4B83-BF15-6C645C49DF24}.WinDDK|Win32.ActiveCfg = Release|Win32
+		{84DA8236-2EBD-4B83-BF15-6C645C49DF24}.WinDDK|Win32.Build.0 = Release|Win32
+		{4118A41C-49FF-4962-B3C0-D9261362E685}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4118A41C-49FF-4962-B3C0-D9261362E685}.Debug|Win32.Build.0 = Debug|Win32
+		{4118A41C-49FF-4962-B3C0-D9261362E685}.Release|Win32.ActiveCfg = Release|Win32
+		{4118A41C-49FF-4962-B3C0-D9261362E685}.Release|Win32.Build.0 = Release|Win32
+		{4118A41C-49FF-4962-B3C0-D9261362E685}.WinDDK|Win32.ActiveCfg = Release|Win32
+		{4118A41C-49FF-4962-B3C0-D9261362E685}.WinDDK|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
